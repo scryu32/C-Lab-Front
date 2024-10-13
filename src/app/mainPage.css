@@ -1,0 +1,66 @@
+.mainPage-container {
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 247, 236);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainPage-container h4 {
+    font-size: 90px;
+}
+
+.mainPage-container p {
+    font-size: 24px;
+}
+
+.motive-container {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.motive-container h4 {
+    font-size: 24px;
+}
+
+.motive-container p {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.motive-container span{
+    background-color: bisque;
+}
+
+.idea-container {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 247, 236);
+}
+
+.idea-container h4 {
+    font-size: 24px;
+}
+
+.idea-container p {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.idea-container span{
+    background-color: rgb(255, 206, 146);
+}
