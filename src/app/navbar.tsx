@@ -8,7 +8,7 @@ export default function NavBar(){
                 <a href="#motive" className="navbar-element">동기</a>
                 <a href="#idea" className="navbar-element">아이디어</a>
                 <a href="#skill" className="navbar-element">기술</a>
-                <a href="#work" className="navbar-element">결과물</a>
+                <a href="#work" className="navbar-element">작업물</a>
             </nav> 
         </div>
     )
