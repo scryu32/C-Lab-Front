@@ -1,4 +1,5 @@
 import "./globals.css";
+import NavBar from "./navbar";
 
 export default function RootLayout({
   children,
@@ -8,6 +9,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
+        <NavBar/>
         {children}
       </body>
     </html>

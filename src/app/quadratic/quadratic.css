@@ -1,0 +1,15 @@
+.quadratic-form {
+    display: flex;
+}
+
+.quadratic-form p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.quadratic-form input {
+    margin: 0;
+}

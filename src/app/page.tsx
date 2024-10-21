@@ -4,7 +4,6 @@ import "./mainPage.css"
 export default function MainPage(){
   return (
     <div>
-      <NavBar/>
       <div className="mainPage-container">
         <h4>Welcome To C-Lab!</h4>
         <p>Made By 유성찬</p>
@@ -40,7 +39,15 @@ export default function MainPage(){
       </div>
       <div id="work" className="work-container">
         <h4>작업물</h4>
-        
+        <p>제가 프로젝트를 위해 만든 작업물들입니다. 각각 작업물들을 <span>왜 만들었는지</span>, <span>어떤 기술</span>을 이용해 만들었는지 자세히 적었습니다.</p>
+        <ul>
+          <li><a href="/fibonacci">피보나치 수열</a></li>
+          <li><a href="/catalan">카탈란 수</a></li>
+          <li><a href="/quadratic">이차방정식</a></li>
+          <li><a href="/collatz">콜라츠 추측</a></li>
+          <li><a href="/prime">소인수 분해</a></li>
+          <li><a href="/genshin">*원신 가챠 시뮬레이터</a></li>
+        </ul>
       </div>
     </div>
   )

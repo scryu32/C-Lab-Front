@@ -125,3 +125,13 @@
 .work-container span{
     background-color: rgb(255, 206, 146);
 }
+
+.work-container ul li a{
+    color: rgb(55, 0, 255);
+    text-decoration: none;
+}
+
+.work-container ul li :hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
