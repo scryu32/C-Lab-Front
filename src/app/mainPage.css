@@ -67,9 +67,8 @@
 
 .skill-container {
     width: 100%;
-    height: 800px;
+    height: auto;
     text-align: center;
-    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(255, 255, 255);
@@ -89,17 +88,122 @@
     background-color: bisque;
 }
 
+.cards-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.front-end-container{
+    width: 50%;
+}
+
+.back-end-container{
+    width: 50%;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    margin-right: 10%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.front-end-button {
+    width: 40%;
+    background-color: #eee;
+    margin-left: 10%;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+.back-end-button {
+    width: 40%;
+    background-color: #eee;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+.front-end-button:hover {
+    background-color: #ddd;
+}
+.back-end-button:hover {
+    background-color: #ddd;
+}
+
+
+.front-end-container h4{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.back-end-container h4{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .card-container {
     display: flex;
 }
 
 .card {
-    width: 15%;
+    width: 33%;
+    height: 430px;
     margin: auto;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .card span {
     background-color: bisque;
+}
+
+.card h4 {
+    margin-top: 40px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.detail-container {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.detail-container h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.back-detail-card {
+    margin: auto;
+    width: 80%;
+}
+
+.front-detail-card {
+    margin: auto;
+    width: 80%;
+}
+
+.bf-detail {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.detail-detail {
+    margin-bottom: 40px;
+}
+
+.detail-detail h4 span{
+    font-size: 20px;
+    background-color: rgb(255, 208, 150);
 }
 
 .work-container {
