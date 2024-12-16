@@ -1,4 +1,3 @@
-import NavBar from "./navbar";
 import "./mainPage.css"
 import DetailCards from "./detailCards";
 
